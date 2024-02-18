@@ -93,6 +93,9 @@ func (Builder) ToSqlSelect(c *dbgo.Context) (sql4prepare string, binds []any) {
 			}
 		}
 	}
+	if len(cols) == 0 {
+		cols = []string{"*"}
+	}
 	var distinct string
 	if c.SelectClause.Distinct {
 		distinct = "DISTINCT "
