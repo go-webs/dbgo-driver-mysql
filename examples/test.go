@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"github.com/go-webs/dbgo"
-	_ "github.com/go-webs/drivers/mysql"
+	_ "github.com/go-webs/dbgo-driver-mysql"
 	"log"
 	"strconv"
 	"time"

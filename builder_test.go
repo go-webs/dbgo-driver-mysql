@@ -1,4 +1,4 @@
-package mysql
+package drivers
 
 import (
 	"github.com/go-webs/dbgo"

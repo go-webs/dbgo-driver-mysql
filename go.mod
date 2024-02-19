@@ -1,4 +1,4 @@
-module github.com/go-webs/drivers
+module github.com/go-webs/dbgo-driver-mysql
 
 go 1.21
 
